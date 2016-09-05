@@ -54,7 +54,7 @@ $countryList.getCodes();
 
 ### $countryList.getData()
 
-Returns an object containing every countries following the `{ "code": "ES", "name": "Spain" }` schema.
+Returns an object containing every country following the `{ "code": "ES", "name": "Spain" }` schema.
 
 #### Example
 ```javascript
