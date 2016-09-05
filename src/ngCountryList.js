@@ -308,6 +308,14 @@
       });
     }
 
+    function getContinentByCode(code) {
+      for(var i = 0, len = data.length; i < len; i++) {
+        if (data[i].code == code) {
+          return data[i].continent;
+        }
+      }
+    }
+
     function getData() {
       return data;
     }

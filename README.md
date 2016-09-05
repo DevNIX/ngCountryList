@@ -70,6 +70,15 @@ Returns an object containing every country in the continent following the `{ "co
 $countryList.getDataByContinent('EU');
 ```
 
+### $countryList.getContinentByCode(countryCode)
+
+Returns the continent code.
+
+#### Example
+```javascript
+$countryList.getContinentByCode('ES'); // Output: 'EU'
+```
+
 Proudly sponsored by
 
 [![Ecomputer](http://www.ecomputer.es/imagenes/empresa/descargas/logotipo_ecomputer_alargado_azul_min.jpg)](http://www.ecomputer.es)
