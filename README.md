@@ -54,11 +54,20 @@ $countryList.getCodes();
 
 ### $countryList.getData()
 
-Returns an object containing every country codes following the `{ "code": "ES", "name": "Spain" }` schema.
+Returns an object containing every country following the `{ "code": "ES", "name": "Spain" }` schema.
 
 #### Example
 ```javascript
 $countryList.getData();
+```
+
+### $countryList.getDataByContinent(continentCode)
+
+Returns an object containing every country in the continent following the `{ "code": "ES", "name": "Spain" }` schema.
+
+#### Example
+```javascript
+$countryList.getDataByContinent('EU');
 ```
 
 Proudly sponsored by
